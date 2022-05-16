@@ -1,0 +1,32 @@
+@import '../../assets/scss/variables' ;
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Regular.woff2') format('woff2'),
+  url('../fonts/Lato-Regular.woff') format('woff'),
+  url('../fonts/Lato-Regular.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'goingtodogreatthings';
+  src: url('../fonts/goingtodogreatthings.ttf') format('truetype')
+}
+
+
+@font-face {
+  font-family: 'Demo_ConeriaScript';
+  src: url('../fonts/Demo_ConeriaScript.ttf') format('truetype')
+}
+
+body {
+  font: $font-size-base $font-global;
+  line-height: 1.2;
+  color: $color-text;
+}
+
+.active {
+  color: red;
+}
+
+
